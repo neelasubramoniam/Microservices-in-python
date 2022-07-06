@@ -14,4 +14,4 @@ def hello():
 def detail():
     return jsonify({'name' : "Neela",
                     'greet' : "Welcomes you"})
-app.run()
+app.run(host='0.0.0.0', port=8080)
